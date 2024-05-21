@@ -1,3 +1,5 @@
+/* Criando regras globais */
+
 * {
     padding: 0;
     margin: 0;
@@ -38,11 +40,11 @@
     }
   }
 
+/* Fim animações */
 
 
 
-
-
+/* Criando animações */
 .jello-horizontal {
 	-webkit-animation: jello-horizontal 0.9s both;
 	        animation: jello-horizontal 0.9s both;
@@ -111,10 +113,7 @@
     }
   }
 
-
-
-
-
+/* Fim animações */
 
 
 
@@ -143,6 +142,8 @@ body{
     font-weight: bolder;
 }
 
+/* Imagens do site  */
+
 .akira{
     background: rgba(0, 0, 0, 0.4) url(img/240308-Akira-Toriyama-al-0517-25751d.png);
     background-repeat: no-repeat;
@@ -150,18 +151,6 @@ body{
     background-attachment: fixed;
     background-position: center;
     height: 60rem;
-}
-
-.Impacto{
-    position: absolute;
-    color: aliceblue;
-    right: 80px;
-    top: 66rem;
-    width: 36px;
-    letter-spacing: 1em; 
-    line-height: 12.0rem;
-    font-size: 2em;
-    font-weight: bolder;
 }
 
 .db{
@@ -173,6 +162,20 @@ body{
     height: 83rem;
 }
 
+/* Fim das imagens do site  */
+
+
+.Impacto{
+  position: absolute;
+  color: aliceblue;
+  right: 80px;
+  top: 66rem;
+  width: 36px;
+  letter-spacing: 1em; 
+  line-height: 12.0rem;
+  font-size: 2em;
+  font-weight: bolder;
+}
 
 .titulo {
     letter-spacing: 0.3em; 
@@ -182,6 +185,8 @@ body{
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/* Criando paragrafos */
 
 .twoL{
     letter-spacing: 0.1em; 
@@ -202,6 +207,10 @@ body{
     width: 50rem;
     text-align: justify;
 }
+
+/* Fim paragrafos */
+
+/* Rodapé */
 
 footer{
     bottom: 0;
@@ -225,3 +234,5 @@ footer a:hover{
     color: rgb(0, 255, 21);
     text-decoration: underline;
 }
+
+/* Fim do Rodapé */
