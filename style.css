@@ -112,13 +112,11 @@
               transform: scale3d(1, 1, 1);
     }
   }
-
 /* Fim animações */
 
 
-
 body{
-    background-image: linear-gradient(to right, rgb(1, 2, 49), rgb(18, 0, 66));
+    background-image: linear-gradient(to right, rgb(13, 14, 32), rgb(0, 6, 32));
 }
 
 .yellow{
@@ -162,6 +160,15 @@ body{
     height: 83rem;
 }
 
+.last{
+  background: rgba(0, 0, 0, 0.4) url(img/gk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  height: 130rem;
+}
+
 /* Fim das imagens do site  */
 
 
@@ -186,6 +193,18 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.historia{
+  position: absolute;
+  color: rgb(216, 230, 200);
+  right: 80px;
+  top: 145rem;
+  width: 20px;
+  letter-spacing: 1em; 
+  line-height: 16.8rem;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
 /* Criando paragrafos */
 
 .twoL{
@@ -196,6 +215,7 @@ body{
     color: rgb(255, 238, 0);
     width: 50rem;
     text-align: justify;
+    margin-left: 15px;
 }
 
 .firstL{
@@ -203,11 +223,22 @@ body{
     font-size: 1.7rem;
     line-height: 2.5rem;
     font-weight: bolder;
-    color: rgb(0, 255, 213);
+    color: rgb(122, 224, 202);
     width: 50rem;
     text-align: justify;
+    margin-left: 15px;
 }
 
+.threeL{
+  letter-spacing: 0.1em; 
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  width: 50rem;
+  text-align: justify;
+  margin-left: 15px;
+}
 /* Fim paragrafos */
 
 /* Rodapé */
@@ -233,6 +264,10 @@ footer a {
 footer a:hover{
     color: rgb(0, 255, 21);
     text-decoration: underline;
+}
+
+footer #name_akira{
+  color: rgb(166, 235, 252);
 }
 
 /* Fim do Rodapé */
