@@ -342,9 +342,12 @@ text-decoration: none;
   display: none;
 }
 
+
 .akira{
-  height: 15%;
+ height: 10%;
+  background-position:center;
 }
+
 .db{
   height: 10%;
   background-position:center;
@@ -352,8 +355,9 @@ text-decoration: none;
 }
 }
 
- /*Responsividade: Ipad Pro 11*/ 
+ /*Responsividade: Ipad Pro 11 | Por enquanto retirada*/ 
 
+ /*
  @media (max-width: 834px) and (max-height: 1194px) {
 
 .titulo{
@@ -421,6 +425,8 @@ footer p{
   font-size: 1.5rem;
 }
  }
+
+ */ 
 
  /*Responsividade: Celulares desconhecidos*/ 
 
