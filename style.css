@@ -487,3 +487,68 @@ footer p{
 }
 
  }
+
+
+ @media (min-width: 376px) and (max-height: 480px) 
+ {
+  .titulo{
+    font-size: 3rem;
+  }
+
+  .foi {
+    display: none;
+  }
+  
+  .Impacto {
+  display: none;
+  }
+  
+  .historia {
+  display: none;
+  }
+  
+  .kenburns-top-right{
+  display: none;
+  }  
+  
+  .last{
+    display: block;
+    }  
+  
+  .ball {
+    display: none;
+  }
+
+  .firstL, .twoL, .threeL{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: normal;
+    width: 98%; 
+    margin: 0 auto; 
+}
+
+.akira{
+  height: 29.5rem;
+  
+}
+
+.db{
+  height: 39.5rem;
+}
+
+.last{
+    height: 67.5rem;
+}
+
+.firstL{
+  animation-duration: 0;
+  animation-name: none;
+}
+
+.twoL{
+  animation-duration: 0;
+  animation-name: none;
+}
+
+
+ }
